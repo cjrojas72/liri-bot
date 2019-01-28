@@ -28,7 +28,7 @@ switch(action){
     if (err) {
       return console.log('Error occurred: ' + err);
     }
-    console.log(data); 
+    console.log(data.tracks.items[0].artists); 
     });
     break;
   
