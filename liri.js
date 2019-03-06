@@ -34,7 +34,7 @@ switch(action){
     if (err) {
       return console.log('Error occurred: ' + err);
     }
-    console.log("Artists: " + data.tracks.items[0].artists); 
+    console.log("Artists: " + data.tracks.items[0].artists[0].name); 
     console.log("Song Name: " + data.tracks.items[0].name);
     console.log("Album: " + data.tracks.items[0].album.name);
     });
